@@ -2,6 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function log() {
+  console.log('worked');
+  alert('Nice click, bro!');
+}
+
 function App() {
   return (
     <div className="App">
@@ -10,7 +15,7 @@ function App() {
         <p>
           Website under construction...
           <br/><br/>
-          Pierre-Anthony Eid
+          <span className="test" onClick={log}>Pierre-Anthony Eid</span>
         </p>
       </header>
     </div>
