@@ -17,6 +17,11 @@ function App() {
           <br/><br/>
           <span className="test" onClick={log}>Pierre-Anthony Eid</span>
         </p>
+        <div className="contact-info">
+          <a href="./resume.pdf" download>My Resume</a>
+          <span>  |  </span>
+          <a href="mailto:pierre.eid2@gmail.com">E-Mail Me</a>
+        </div>
       </header>
     </div>
   );

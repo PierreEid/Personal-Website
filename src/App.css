@@ -37,6 +37,10 @@
   }
 }
 
-.test{
+.test {
   cursor: pointer;
+}
+
+.contact-info a {
+  color: purple;
 }
