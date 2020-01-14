@@ -3,8 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function log() {
-  console.log('worked');
-  alert('Nice click, bro!');
+  let url = window.location.hostname + window.location.pathname;
+  console.log(url);
 }
 
 function App() {
