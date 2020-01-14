@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-website/home/static/css/main.d2a18ca0.chunk.css",
-    "main.js": "/my-website/home/static/js/main.ab45b1ff.chunk.js",
-    "main.js.map": "/my-website/home/static/js/main.ab45b1ff.chunk.js.map",
-    "runtime-main.js": "/my-website/home/static/js/runtime-main.b2c179f5.js",
-    "runtime-main.js.map": "/my-website/home/static/js/runtime-main.b2c179f5.js.map",
-    "static/js/2.2e83008a.chunk.js": "/my-website/home/static/js/2.2e83008a.chunk.js",
-    "static/js/2.2e83008a.chunk.js.map": "/my-website/home/static/js/2.2e83008a.chunk.js.map",
-    "index.html": "/my-website/home/index.html",
-    "precache-manifest.5c3a8839480a4cc23884f04a1bbea902.js": "/my-website/home/precache-manifest.5c3a8839480a4cc23884f04a1bbea902.js",
-    "service-worker.js": "/my-website/home/service-worker.js",
-    "static/css/main.d2a18ca0.chunk.css.map": "/my-website/home/static/css/main.d2a18ca0.chunk.css.map",
-    "static/js/2.2e83008a.chunk.js.LICENSE": "/my-website/home/static/js/2.2e83008a.chunk.js.LICENSE",
-    "static/media/logo.svg": "/my-website/home/static/media/logo.5d5d9eef.svg"
+    "main.css": "/my-website/static/css/main.d2a18ca0.chunk.css",
+    "main.js": "/my-website/static/js/main.225fb899.chunk.js",
+    "main.js.map": "/my-website/static/js/main.225fb899.chunk.js.map",
+    "runtime-main.js": "/my-website/static/js/runtime-main.962a4678.js",
+    "runtime-main.js.map": "/my-website/static/js/runtime-main.962a4678.js.map",
+    "static/js/2.2e83008a.chunk.js": "/my-website/static/js/2.2e83008a.chunk.js",
+    "static/js/2.2e83008a.chunk.js.map": "/my-website/static/js/2.2e83008a.chunk.js.map",
+    "index.html": "/my-website/index.html",
+    "precache-manifest.8db684e139efb77ae22717a5bcaded56.js": "/my-website/precache-manifest.8db684e139efb77ae22717a5bcaded56.js",
+    "service-worker.js": "/my-website/service-worker.js",
+    "static/css/main.d2a18ca0.chunk.css.map": "/my-website/static/css/main.d2a18ca0.chunk.css.map",
+    "static/js/2.2e83008a.chunk.js.LICENSE": "/my-website/static/js/2.2e83008a.chunk.js.LICENSE",
+    "static/media/logo.svg": "/my-website/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2c179f5.js",
+    "static/js/runtime-main.962a4678.js",
     "static/js/2.2e83008a.chunk.js",
     "static/css/main.d2a18ca0.chunk.css",
-    "static/js/main.ab45b1ff.chunk.js"
+    "static/js/main.225fb899.chunk.js"
   ]
 }
