@@ -4,12 +4,12 @@ import './App.css';
 import Home from './components/home/home.js';
 import Blog from './components/blog/blog.js';
 
-function log() {
-  let url = window.location.hostname + window.location.pathname;
-  console.log(url);
+function printURL() {
+  console.log(window.location.hostname, " :: ", window.location.pathname);
 }
 
 function App() {
+  printURL();
   return (
     <div>
       <div>

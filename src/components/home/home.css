@@ -12,7 +12,17 @@
   text-align: center;
   text-transform: uppercase;
   font-family: courier;
-  width: 500px;
+  width: 60vw;
   height: 25vh;
   margin-top: 2vh;
+  word-wrap: break-word;
+}
+
+.home-content h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 4vw;
+  height: 15vh;
+  margin: 0;
 }
