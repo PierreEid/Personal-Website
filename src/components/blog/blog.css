@@ -1,0 +1,10 @@
+.blog {
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+
+.blog h1 {
+  margin: 0px 0px;
+  padding: 10px;
+}
