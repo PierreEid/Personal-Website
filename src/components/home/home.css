@@ -1,28 +1,37 @@
 .home {
-  height: 96vh;
+  height: 98vh;
   background-image: url("https://media.giphy.com/media/10539PNHnSuPTi/source.gif");
-  border: 2vh solid white;
+  border: 1vh solid black;
   display: flex;
   justify-content: center;
 }
 
 .home-content {
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f5f5f0;
+  border: 1vh solid black;
   color: black;
   text-align: center;
   text-transform: uppercase;
   font-family: courier;
-  width: 60vw;
-  height: 25vh;
-  margin-top: 2vh;
+  width: 50vw;
+  margin: 2vh 0vh;
   word-wrap: break-word;
 }
 
-.home-content h1{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.home-content h3{
   font-size: 4vw;
-  height: 15vh;
   margin: 0;
+  padding: 1vh 0vh;
+}
+
+.nav {
+  list-style-type: none;
+  margin-top: 5vw;
+}
+.nav li {
+  font-size: 2vw;
+  margin-bottom: 2vw;
 }
