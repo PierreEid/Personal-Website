@@ -1,5 +1,6 @@
 .home {
   height: 98vh;
+  width: (100vw-2vh);
   background-image: url("https://media.giphy.com/media/10539PNHnSuPTi/source.gif");
   border: 1vh solid black;
   display: flex;
@@ -7,43 +8,47 @@
 }
 
 .home-content {
-  background-color: #f5f5f0;
+  background-color: rgba(255, 232, 140, 0.5);
   color: black;
   border: 1vh solid black;
   text-align: center;
   text-transform: uppercase;
   font-family: courier;
-  width: 70vw;
-  height: 55vh;
-  margin: 2vh 0vh;
+  width: 80vw;
+  height: 86vh;
+  margin: 5vh 5vh;
   word-wrap: break-word;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .home-content h3{
+  height: 20vh;
   font-size: 4vw;
   margin: 0;
-  padding: 1vh 0vh;
+  padding-top: 1vh;
   text-decoration: underline;
 }
 
 .nav-container {
-  display: flex;
-  justify-content: flex-start;
+  height: 65vh;
 }
 
 .nav-table {
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding-top: 3vh;
-  padding-left: 3vh;
+  padding-left: 10px;
 }
 
-.nav-table th {
+.nav-table td {
   font-size: 2vw;
   font-weight: normal;
-  margin-bottom: 2vw;
+  margin-bottom: 8vh;
+}
+
+.nav-table td:hover{
+  cursor: pointer;
+  font-weight: bold;
+  padding-left: 5vh;
 }

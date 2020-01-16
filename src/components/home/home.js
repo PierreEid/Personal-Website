@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+//import '../../../public/wip.png' as wip;
 
 class Home extends React.Component {
 
@@ -8,15 +9,15 @@ class Home extends React.Component {
       <div className="home">
         <div className="home-content">
           <h3>Pierre-Anthony Eid</h3>
-          <div className="nav-container">
-            <table className="nav-table">
-              <th>| About</th>
-              <th>| Personal Blog</th>
-              <th>| Resume</th>
-              <th>| Github</th>
-              <th>| Contact Me</th>
-            </table>
-          </div>
+          <table className="nav-container">
+            <tbody className="nav-table">
+              <td>| About</td>
+              <td>| Personal Blog</td>
+              <td>| Resume</td>
+              <td>| Github</td>
+              <td>| Contact Me</td>
+            </tbody>
+          </table>
         </div>
       </div>
     );
