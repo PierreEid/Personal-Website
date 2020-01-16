@@ -14,7 +14,7 @@
   text-transform: uppercase;
   font-family: courier;
   width: 70vw;
-  height: 40vh;
+  height: 55vh;
   margin: 2vh 0vh;
   word-wrap: break-word;
   display: flex;
@@ -26,16 +26,23 @@
   font-size: 4vw;
   margin: 0;
   padding: 1vh 0vh;
+  text-decoration: underline;
 }
 
-.nav {
-  display: inline;
-  list-style-type: none;
-  padding-top: 5vw;
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.nav li {
-  display: inline;
+.nav-table {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 1vh;
+  padding-left: 3vh;
+}
+
+.nav-table th {
   font-size: 2vw;
   margin-bottom: 2vw;
 }
