@@ -1,0 +1,11 @@
+p {
+  cursor: pointer;
+}
+
+.yes {
+  color: blue;
+}
+
+.no {
+  color: red;
+}
