@@ -10,11 +10,11 @@ class Home extends React.Component {
           <h3>Pierre-Anthony Eid</h3>
           <div className="nav-container">
             <table className="nav-table">
-              <th>|About</th>
-              <th>|Personal Blog</th>
-              <th>|Resume</th>
-              <th>|Github</th>
-              <th>|Contact Me</th>
+              <th>| About</th>
+              <th>| Personal Blog</th>
+              <th>| Resume</th>
+              <th>| Github</th>
+              <th>| Contact Me</th>
             </table>
           </div>
         </div>

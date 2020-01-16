@@ -9,9 +9,9 @@ class Test extends React.Component {
       className: 'no'
     }
     this.clickHandler = this.clickHandler.bind(this);
-    console.log(this.state);
+    //console.log(this.state);
   }
-  
+
   clickHandler() {
     this.state.clicked = !this.state.clicked;
     let tempClass = this.state.clicked ? 'yes' : 'no';
@@ -19,7 +19,7 @@ class Test extends React.Component {
       className: tempClass
     });
   }
-  
+
   render() {
     return <p className={this.state.className} onClick={this.clickHandler}>Component imports work.</p>;
   }
