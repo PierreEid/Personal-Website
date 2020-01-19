@@ -1,0 +1,36 @@
+.mainContainer {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("cfib.jpg");
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameHeader {
+  width: 50vw;
+  padding: 2vh;
+  background-color: rgba(163, 186, 255, 0.9);
+  border: solid black 5px;
+  margin-bottom: 5vh;
+  font-size: 5vw;
+  font-family: courier;
+  text-transform: uppercase;
+}
+
+.linkBox {
+  width: 50vw;
+  padding: 2vh;
+  background-color: rgba(163, 186, 255, 0.9);
+  color: white;
+  border: solid black 5px;
+  font-size: 2vw;
+  font-family: courier;
+  text-transform: uppercase;
+}
+
+.linkBox a {
+  margin: 0 1vw;
+}
