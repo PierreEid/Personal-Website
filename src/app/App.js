@@ -13,9 +13,10 @@ function App() {
         Pierre-Anthony Eid
       </div>
       <div className="linkBox">
-        <a href="resume.pdf" download>Resume</a>
-        <a href="https://www.github.com/pierreeid/" target="_blank" >Github</a>
-        <a href="mailto:pierre.eid2@gmail.com">Contact Me</a>
+        <a href="resume.pdf" download>Resume |</a>
+        <a href="https://www.github.com/pierreeid/" target="_blank" >| Github |</a>
+        <a href="https://www.linkedin.com/in/pierreeid/" target="_blank">| LinkedIn |</a>
+        <a href="mailto:pierre.eid2@gmail.com">| Contact Me</a>
       </div>
     </div>
   );
